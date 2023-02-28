@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title>S.F</title>
+<!-- Favicon-->
+<link rel="icon" type="image/x-icon"
+href="../../resources/assets/favicon.ico" />
+<!-- Bootstrap icons-->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+rel="stylesheet" type="text/css" />
+<!-- Google fonts-->
+<link
+href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+rel="stylesheet" type="text/css" />
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="../../resources/css/styles.css" rel="stylesheet" />
+
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../../resources/js/scripts.js"></script>
+
+<script src="https://kit.fontawesome.com/6e77d299cc.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="../../../resources/css/styles.css">
+<link rel="stylesheet" href="../../../resources/css/boardcss.css">
+
+
+</head>
+<body>
+<!-- Navigation-->
+<div>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top"
+        id="mainNav">
+        <div class="container px-4 px-lg-5" style="margin-top: 10px;">
+            <a class="navbar-brand" href="/home/main">S.F</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+					<li class="nav-item"><a class="nav-link" href="/home/leisure">동호회소개</a></li>
+                   
+                    <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">동호회신청</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#!"></a></li>
+                            <li><a class="dropdown-item" href="/home/newclub">동호회신청</a></li>
+                            <li><a class="dropdown-item" href="/home/newclubapply">신규동호회 등록</a></li>
+                        </ul>
+					</li>
+
+                    <li class="nav-item dropdown"><a
+                        class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">커뮤니티</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#!">자유게시판</a></li>
+                            <li><a class="dropdown-item" href="#!">Q&A</a></li>
+                        </ul></li>
+                    <li class="nav-item dropdown"><a
+                        class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">마이페이지</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/home/mypage">회원 정보
+                                    관리</a></li>
+                            <li><a class="dropdown-item" href="/home/mypage">동호회 신청
+                                    현황</a></li>
+                        </ul></li>
+
+                    <li class="nav-item dropdown"><a
+                        class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">관리자
+                            메뉴</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/admin/freeboard">게시판
+                                    관리</a></li>
+                            <li><a class="dropdown-item" href="/admin/qnaboard">Q&A관리</a></li>
+                            <li><a class="dropdown-item"
+                                href="/admin/member_registration">신규 회원 등록</a></li>
+                            <li><a class="dropdown-item"
+                                href="/admin/member_management">회원 관리</a></li>
+                            <li><a class="dropdown-item"
+                                href="/admin/club_Applist">동호회  신청 목록</a></li>
+                            <li><a class="dropdown-item" href="/admin/club_management">동호회
+                                    관리</a></li>
+                        </ul>
+					</li>
+					
+                
+					<li style="margin-left: 20px;" class="nav-item"><a class="nav-link" href="/home/main">홈</a></li>
+					<li class="nav-item"><a class="nav-link">|</a></li>
+					<!-- <li class="nav-item"><a class="nav-link" href="/home/login"><i class="fa-solid fa-user">로그인</a></i></li> -->
+					<li class="nav-item dropdown">
+						<a href="/home/login" class="nav-link dropdown-toggle" id="navbarDropdown" 
+                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<!--<i class="fa-solid fa-user"> 로그인시 보여주는 아이콘--></i>로그인</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/admin/freeboard">로그아웃</a></li>
+                            <li><a class="dropdown-item" href="/admin/qnaboard">Q&A관리</a></li>                           
+                        </ul>
+					</li>
+					<li class="nav-item"><a class="nav-link">|</a></li>
+					<li class="nav-item"><a class="nav-link" href="/home/join_check">회원가입</a></li>
+					<li class="nav-item"><a class="nav-link">|</a></li>
+					<li class="nav-item"><a class="nav-link" href="/admin/home">관리자</a></li>
+                      
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="container" style="margin-top: 100px;">
+	<img src="../../../resources/images/golf1.jpg" width="100%" height="300px">
+</div>
+<style>
+.reply_answer {
+	display: none;
+	border-radius: 5px;
+}
+</style>
+<script>
+	$('.reply_re').on('click', function() {
+		$('.reply_answer').toggle();
+	});
+</script>
+
+<!-- TODO : 동호회  이미지 불러와서 띄워줘야함   -->
+<div class="container" style="margin-top: 100px;">
+	<img src="../resources/images/golf1.jpg" width="100%" height="300px">
+</div>
+
+<div class="container">
+	<div class="row">
+		<form role="form" method="post" autocomplete="off">
+			<table class="table table-striped">
+				<%-- 홀,짝 행 구분 --%>
+				<tbody>
+					<tr>
+						<td><input type="hidden" id="bno" name="bno"
+							value="${read.bno}" /> <c:out value="${read.title}" /></td>
+					</tr>
+					<tr>
+						<td>
+							<div class="container">
+								<div class="row">
+									<div class="col text-left d-flex justify-content-start">
+										작성자 :
+										<c:out value="${read.id}" />
+									</div>
+									<div class="col">
+										작성일 :
+										<fmt:formatDate value="${read.reg_date}" pattern="yyyy-MM-dd" />
+									</div>
+									<div class="col">
+										<c:if test="${!empty read.mod_date}">
+											수정일 : <fmt:formatDate value="${read.mod_date}"
+												pattern="yyyy-MM-dd" />
+										</c:if>
+									</div>
+									<div class="col d-flex justify-content-end">
+										조회수 :
+										<c:out value="${read.view_count}" />
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td><textarea class="form-control" maxlength="4000"
+								style="height: 350px;" readonly="readonly"
+								placeholder="<c:out value="${read.content}" />"></textarea></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div class="btn-groupp" role="group" aria-label="Basic example"
+				style="text-align: end;">
+				<c:if test="${read.cate_num eq '00' }">
+					<button id="modity_btn" class="btn btn-primary">수정</button>
+				</c:if>
+
+				<button id="delete_btn" class="btn btn-primary">삭제</button>
+
+				<button type="button" class="btn btn-primary"
+					onclick="location.href='/admin_board/freelist'">목록보기</button>
+			</div>
+		</form>
+
+
+	</div>
+
+</div>
+
+
+<c:if test="${read.board_type eq '01'}">
+	<!-- 댓글리스트 -->
+
+	<c:forEach items="${reply}" var="reply">
+		<hr>
+		<div class="container">
+			<div class="u_cbox_info">
+				<span class="u_cbox_info_main"><a
+					href="https://blog.naver.com/donaldpak" class="u_cbox_name"
+					data-log="RPC.nick" target="_blank"> <span
+						class="u_cbox_name_area"><span class="u_cbox_nick_area">
+								<span class="u_cbox_nick">${reply.id}</span>
+						</span></span>
+				</a></span> <span class="u_cbox_info_sub"></span>
+			</div>
+			<div class="u_cbox_text_wrap">
+				<span class="u_cbox_contents" data-lang="ko"> ${reply.reply }
+				</span>
+			</div>
+			<div class="u_cbox_info_base">
+				<span class="u_cbox_date" data-value="2023-02-01T12:01:40+0900">
+					<fmt:formatDate value="${reply.reg_date}" pattern="yyyy-MM-dd" />
+				</span>
+				<c:if test="${reply.id != 'admin' }">
+					<span class="u_cbox_work_main"><a href="#"
+						class="u_cbox_btn_report" data-action="report#request"
+						data-param="commentNo:'782259250444370282',objectId:'102238556_201_223001416099'"
+						data-log="RPC.report" target="_blank"> <span
+							class="u_cbox_ico_bar"></span> <span class="u_cbox_ico_report"></span>
+							<span class="u_cbox_in_report"> 신고 </span></a></span>
+				</c:if>
+			</div>
+			<!--    <div class="u_cbox_tool"><a role="button"  class="u_cbox_btn_reply reply_re" >
+	        <strong class="u_cbox_reply_txt">답글</strong></a> -->
+		</div>
+
+	</c:forEach>
+
+
+
+
+	<!-- 댓글리스트에 답글달기 -->
+	<div class="container reply_answer"
+		style="border: 1px solid black; padding: 10px; margin-top: 20px; width: 85%;">
+		<div style="padding: 5px;">
+			<i class="fa-solid fa-user"></i>weasel
+		</div>
+		<textarea placeholder="블로그가 더 훈훈해지는 댓글 부탁드립니다. @별명을 입력하면 서로이웃이 소환됩니다."
+			style="width: 100%; height: 100px; overflow-y: scroll"></textarea>
+		<button class="btn btn-primary">댓글달기</button>
+	</div>
+	<hr>
+
+
+	<!-- 댓글달기 -->
+	<form action="/admin/replywrite" method="POST">
+		<div class="container"
+			style="border: 1px solid black; padding: 10px; margin-top: 20px;">
+			<div style="padding: 5px;">
+				<i class="fa-solid fa-user"></i> admin
+			</div>
+
+			<div class="row">
+				<div class="col-11">
+					<input id="reply" name="reply" type="text"
+						style="width: 100%; height: 50px;" placeholder="댓글을 입력해주세요" /> 
+						<input id="bno" name="bno" type="hidden" value="${read.bno}" />
+				</div>
+				<div class="col-1">
+					<button type="submit" class="btn btn-primary">등록</button>
+				</div>
+			</div>
+		</div>
+	</form>
+	<!-- 페이징 기능  -->
+	<div class='d-flex justify-content-center pull-right'
+		style="width: 100%;">
+		<ul class="pagination mt-3 mb-0">
+			<c:if test="${pageMaker.prev}">
+				<li class="paginate_button previous"><a class="page-link"
+					href="${pageMaker.startPage-1 }"> Previous</a></li>
+			</c:if>
+
+			<c:forEach var="num" begin="${pageMaker.startPage}"
+				end="${pageMaker.endPage}">
+				<li class="paginate_button ${pageMaker.cri.pageNum==num ? "active":""} ">
+					<a class="page-link" href="${num}">${num}</a>
+				</li>
+			</c:forEach>
+
+			<c:if test="${pageMaker.next }">
+				<li class="paginate_button next"><a class="page-link"
+					href="${pageMaker.endPage +1 }">NEXT</a></li>
+			</c:if>
+		</ul>
+	</div>
+
+	<form id='actionForm' action="/admin_board/freeread" method='get'>
+		<input type='hidden' name='bno' value='${read.bno}'>
+		<input type='hidden' name='pageNum' value='${pageMaker.cri.pageNum}'>
+		<input type='hidden' name='amount' value='${pageMaker.cri.amount}'>
+	</form>
+</c:if>
+<!-- 사이드바 맨위 맨아래 -->
+<a style="display: scroll; position: fixed; bottom: 80px; right: 30px;"
+	rel="nofollow" href="#" style="font-size:2.0em">▲</a>
+<a style="display: scroll; position: fixed; bottom: 40px; right: 30px;"
+	rel="nofollow" href="#scrollbottom" style="font-size:2.0em">▼</a>
+<div id="scrollbottom"></div>
+<script>
+	// 폼을 변수에 저장
+	var formObj = $("form[role='form']");
+
+	// 수정 버튼 클릭
+	$("#modity_btn").click(function() {
+
+		formObj.attr("action", "/admin_board/freemodify");
+		formObj.attr("method", "get");
+		formObj.submit();
+
+	});
+	// 삭제 버튼 클릭
+	$("#delete_btn").click(function() {
+
+		formObj.attr("action", "/admin_board/freedelete");
+		formObj.attr("method", "post");
+		formObj.submit();
+
+	});
+</script>
+
+<script>
+	$(document).ready(function() {
+		var actionForm = $("#actionForm");
+		$(".paginate_button a").on("click", function(e) {
+			e.preventDefault();
+			console.log('click');
+			actionForm.find("input[name='pageNum']").val($(this).attr("href"));
+			actionForm.submit();
+		});
+	});
+</script>
+
+ <!-- Footer-->
+ <footer class="footer bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+				<ul class="list-inline mb-2">
+					<li class="list-inline-item"><a href="#!">About</a></li>
+					<li class="list-inline-item">⋅</li>
+					<li class="list-inline-item"><a href="#!">Contact</a></li>
+					<li class="list-inline-item">⋅</li>
+					<li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+					<li class="list-inline-item">⋅</li>
+					<li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+				</ul>
+				<p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2022. All Rights Reserved.</p>
+			</div>
+			<div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+				<ul class="list-inline mb-0">
+					<li class="list-inline-item me-4">
+						<a href="#!"><i class="bi-facebook fs-3"></i></a>
+					</li>
+					<li class="list-inline-item me-4">
+						<a href="#!"><i class="bi-twitter fs-3"></i></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#!"><i class="bi-instagram fs-3"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
+
+

@@ -1,0 +1,321 @@
+
+
+	
+	<!DOCTYPE html>
+
+	<html lang="en">
+	<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>S.F</title>
+	<!-- Favicon-->
+	<link rel="icon" type="image/x-icon"
+	href="../../../resources/assets/favicon.ico" />
+	<!-- Bootstrap icons-->
+	<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+	rel="stylesheet" type="text/css" />
+	<!-- Google fonts-->
+	<link
+	href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic"
+	rel="stylesheet" type="text/css" />
+	<!-- Core theme CSS (includes Bootstrap)-->
+	<link href="../../resources/css/styles.css" rel="stylesheet" />
+	
+	<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="../../resources/js/scripts.js"></script>
+	
+	<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="../../resources/css/boardcss.css">
+	
+	<link rel="stylesheet" href="../../resources/css/Club_Info.css">
+	<style>
+		*{
+			margin-bottom: 3px;
+		}
+	
+	</style>
+	<link rel="stylesheet" href="../../resources/css/btncss.css">
+	<link rel="stylesheet" href="../../resources/css/inputcss.css">
+	<link rel="stylesheet" href="../../resources/css/NewClub.css">
+	<link
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+		rel="stylesheet">
+	
+	</head>
+	<body>
+	<!-- Navigation-->
+	<div>
+	
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top"
+			id="mainNav">
+			<div class="container px-4 px-lg-5" style="margin-top: 10px;">
+				<a class="navbar-brand" href="/home/main">S.F</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+					aria-controls="navbarResponsive" aria-expanded="false"
+					aria-label="Toggle navigation">
+	
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item dropdown"><a
+							class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">동호회소개</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="/home/leisure">레져</a></li>
+								<li><a class="dropdown-item" href="/home/travel">여행</a></li>
+								<li><a class="dropdown-item" href="/home/exercise">운동</a></li>
+								<li><a class="dropdown-item" href="/home/study">스터디</a></li>
+							</ul></li>
+						<li class="nav-item dropdown"><a
+							class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">동호회신청</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#!"></a></li>
+								<li><a class="dropdown-item" href="/home/newclub">동호회
+										신청</a></li>
+								<li><a class="dropdown-item" href="/home/newclubapply">
+										신규동호회 등록</a></li>
+							</ul></li>
+						<li class="nav-item dropdown"><a
+							class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">커뮤니티</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#!">자유게시판</a></li>
+								<li><a class="dropdown-item" href="#!">Q&A</a></li>
+							</ul></li>
+						<li class="nav-item dropdown"><a
+							class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">마이페이지</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="/home/mypage">회원 정보
+										관리</a></li>
+								<li><a class="dropdown-item" href="/home/mypage">동호회 신청
+										현황</a></li>
+							</ul></li>
+	
+						<li class="nav-item dropdown"><a
+							class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">관리자
+								메뉴</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="/admin/freeboard">게시판
+										관리</a></li>
+								<li><a class="dropdown-item" href="/admin/qnaboard">Q&A관리</a></li>
+								<li><a class="dropdown-item"
+									href="/admin/member_registration">신규 회원 등록</a></li>
+								<li><a class="dropdown-item"
+									href="/admin/member_management">회원 관리</a></li>
+								<li><a class="dropdown-item"
+									href="/admin/club_Applist">동호회  신청 목록</a></li>
+								<li><a class="dropdown-item" href="/admin/club_management">동호회
+										관리</a></li>
+							</ul></li>
+	
+						<div id="login"
+							style="position: absolute; top: 0px; right: 150px;">
+							<ul
+								style="list-style: none; display: flex; text-decoration: none; color: black;">
+								<a href="/home/main" style="color: black;"><li>홈</li></a>
+								<li>|</li>
+								<a href="/home/login" style="color: black;"><li>로그인</li></a>
+								<li>|</li>
+								<a href="/home/join_check" style="color: black;"><li>회원가입</li></a>
+								<li>|</li>
+								<a href="/admin/home" style="color: black;"><li>관리자</li></a>
+							</ul>
+						</div>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+	</div>
+	
+   
+   
+   
+		
+
+<div class="container" style="padding-top: 150px;">
+	<div class="row">
+		<div class="col d-flex justify-content-center">
+
+			<div class="col-lg-12 col-sm-12 col-xs-12">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-xs-12">
+						<div class="widget">
+							<div class="widget-header bordered-top bordered-palegreen">
+								<span class="widget-caption text-center"> 신규 동호회 신청 </span>
+							</div>
+							<div class="widget-header bordered-top bordered-palegreen">
+								<form id="terms_form" class="f" action="#">
+									<h4 class="scheme-g text-center">신청 시 주의 사항</h4>
+									<textarea style="font-size: 1em; width: 100%; height: 150px;">
+										내용입니다. 내용입니다. 내용입니다. 내용입니다.
+									</textarea>
+								</form>
+							</div>
+							<div class="widget-body">
+								<form role="form">
+
+									<div class="form-group">
+										<label for="sminput"> 신청자성명 </label> <input type="text"
+											readonly="readonly" class="form-control input-xs"
+											id="sminput" placeholder="이름 자동 입력 ">
+									</div>
+
+									<div class="form-group">
+										<label for="sminput">동호회이름</label> <input type="text"
+											class="form-control input-xs" id="sminput"
+											placeholder="입력해주세요 ">
+									</div>
+									
+										<div class="form-group">
+										<label for="sminput">신청일</label> <input type="date"
+											class="form-control input-sm" id="currentDate">
+									</div>
+									<div class="container"> <div class="row"></div></div>
+									<div class="form-group">
+										<div class="container">
+											<div class="row">
+												<div class="col-md-2">
+													<p>카테고리</p>
+												</div>
+												<div class="col-md-4">
+													<select name="club" class="select" style="width:90%;">
+														<option disabled selected>---선택---</option>
+														<option value="Sports">레저</option>
+														<option value="Sports">운동</option>
+														<option value="Travel">여행</option>
+														<option value="Study">스터디</option>
+													</select>
+												</div>
+												<div class="col-md-2">
+													<p class="text-center">모임 주기</p>
+												</div>
+												<div class="col-md-4">
+													<div class="row" style="padding:3px;">
+														<div class="col-md-5">
+															<select class="form-control" id="">
+																<option value="">요일을 선택해주세요</option>
+																<option>매주 토요일</option>
+																<option>매주 일요일</option>
+															</select>
+														</div>
+														<div class="col-md-5">
+															<select class="form-control" id="">
+																<option value="">모임 시간을 선택해주세요</option>
+																<option>8시</option>
+																<option>9시</option>
+																<option>10시</option>
+																<option>11시</option>
+																<option>12시</option>
+																<option>13시</option>
+																<option>14시</option>
+																<option>15시</option>
+																<option>16시</option>
+																<option>17시</option>
+																<option>18시</option>
+																<option>19시</option>
+																<option>20시</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+
+									<label for="sminput"> 동호회내용 </label>
+									<div class="form-group">
+										
+										활동지역 : <input type="text" name="request" required>
+										참여성별 : <input type="text" name="request" required>
+									
+										<textarea style="width: 100%;"
+											placeholder="필수항목: 신설이유,참여성별,활동 지역 등등..." rows="5"></textarea>
+									</div>
+
+
+									<div class="row">
+										<div class="col d-flex justify-content-center">
+											<button
+												class="button button--winona button--border-thin button--round-s"
+												data-text="정말~?" onclick="location.href='#'">
+												<span>작성취소</span>
+											</button>
+											<button
+												class="button button--winona button--border-thin button--round-s"
+												data-text="진쫘~??" type="submit">
+												<span>신청하기</span>
+											</button>
+										</div>
+
+									</div>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+
+<script>
+	document.getElementById('currentDate').value = new Date().toISOString()
+			.substring(0, 10);
+</script>
+
+<!-- Footer-->
+<footer class="footer bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+				<ul class="list-inline mb-2">
+					<li class="list-inline-item"><a href="#!">About</a></li>
+					<li class="list-inline-item">⋅</li>
+					<li class="list-inline-item"><a href="#!">Contact</a></li>
+					<li class="list-inline-item">⋅</li>
+					<li class="list-inline-item"><a href="#!">Terms of Use</a></li>
+					<li class="list-inline-item">⋅</li>
+					<li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
+				</ul>
+				<p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2022. All Rights Reserved.</p>
+			</div>
+			<div class="col-lg-6 h-100 text-center text-lg-end my-auto">
+				<ul class="list-inline mb-0">
+					<li class="list-inline-item me-4">
+						<a href="#!"><i class="bi-facebook fs-3"></i></a>
+					</li>
+					<li class="list-inline-item me-4">
+						<a href="#!"><i class="bi-twitter fs-3"></i></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#!"><i class="bi-instagram fs-3"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+ </footer>
+	</body>
+ </html>

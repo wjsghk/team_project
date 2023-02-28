@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>S.F</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../../resources/assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet"
+        type="text/css" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../../resources/css/styles.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="../../resources/js/scripts.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="../../resources/css/boardcss.css"> -->
+    <style>
+        .like-content .btn-secondary {
+            display: block;
+            text-align: center;
+            background: #ed2553;
+            border-radius: 3px;
+            box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+            padding: 7px 12px;
+            font-size: 18px;
+            margin: 10px 5px 0px 0px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            text-decoration: none;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease;
+        }
+
+        .animate-like {
+            animation-name: likeAnimation;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            animation-duration: 0.65s;
+        }
+
+        @keyframes likeAnimation {
+            0% {
+                transform: scale(3);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+        .like-review.animate-like .fa-heart{
+            display: inline-block;
+        }
+        .like-review .fa-heart{
+            display: none;
+        }
+        .like-review.off .fa-heart{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="like-content d-flex justify-content-end" style="margin-right: 30px; padding-bottom: 15px;">
+        <button class="btn-secondary like-review" id="like">
+            <div class="like-container">
+                <div class="like-cnt unchecked" id="like-cnt"></div>
+            </div>
+            <i class="fa fa-heart" aria-hidden="true"></i> Like
+        </button>
+    </div>
+
+</body>
+<script>
+    // $(function () {
+    //     $(document).on('click', '.like-review', function (e) {
+    //         $(this).html('<i class="fa fa-heart heartt" aria-hidden="true"></i> You liked this');
+    //         $(this).children('.fa-heart').addClass('animate-like');
+    //     });
+    // });
+
+    // $('.heartt').on('click',function(){
+    //     $('.animate-like').remove()
+    // });
+
+
+    // $('.reply_re').on('click',function(){
+    // $('.reply_answer').toggle();
+    // });
+
+
+
+    // $(function () {
+
+    //     if ($(".heartt").css("display") == "none") {
+    //         $(".heartt").show(); //display :none 일떄
+    //     } else {
+    //         $(".heartt").hide();  //display :block 일떄
+    //     }
+    // });
+
+    // $(".likw-review").click(function () {
+    //     if ($(this).hasClass("on")) {
+    //         $(this).addClass("off").removeClass("on");
+    //     } else {
+    //         $(this).addClass("on").removeClass("off");
+    //     }
+    // });
+
+    $("#like").click(function(){
+    if($(this).hasClass("animate-like")) {
+        $(this).addClass("off").removeClass("animate-like");
+    } else {
+        $(this).addClass("animate-like").removeClass("off");
+    }
+});
+</script>
+
+</html>
