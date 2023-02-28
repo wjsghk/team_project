@@ -1,0 +1,75 @@
+ *{
+            padding: 0;
+            margin: 0 auto;
+        }
+        .club_box{
+            width: 850px;
+            height: 600px;
+            /* background-color: rgb(226, 244, 252); */
+            margin-top: 100px;
+            border: solid 3px rgb(32, 32, 32);
+            border-radius: 20px;
+            box-shadow: 10px 10px 5px rgb(226, 244, 252);
+        }
+        img{
+            width: 350px;
+            height: 250px;
+            /* background-color: black; */
+            float: left;
+            margin: 20px 10px 0px 79px;
+
+        }
+        .info{
+            width: 570px;
+            height: 300px;
+            /* background-color: aqua; */
+            float: right;
+            margin: -8px -164px 21px 0px;
+        }
+
+        .info > ul{
+            list-style: none;
+            font-size: 20px;
+            text-align: left;
+            padding-left: 0rem;
+        }
+
+        .info li{
+            padding: 19px;
+            margin: 9px;
+        }
+
+        .introduce > a{
+            text-decoration: none;
+            display:block;
+            width:80px;
+            line-height:30px;
+            text-align:center;
+            background-color:rgb(38, 139, 247);
+            color:#fff;
+            border-radius: 10px;
+            font-size: 20px;
+            padding: 10px;
+        }
+		.btn > a{
+		color: lightslategray;
+	    text-decoration: none;
+	    border: 1px solid;
+	    border-radius: 10px;
+	    padding: 10px;
+	    background-color: skyblue;
+		
+		}
+        
+        .introduce{
+            clear: both;
+            text-align: center;
+        }
+        textarea{
+            width: 85%;
+            height: 200px;
+        }
+        .introduce > .btn{
+            display: flex;
+            
+        }
